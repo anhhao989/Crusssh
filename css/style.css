@@ -14,7 +14,7 @@
     display: inline-block;
     left: 70%; 
     top: 40vh;
-    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
   }
 #bg{
   position: fixed;
