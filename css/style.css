@@ -55,11 +55,13 @@ header h4 {
     font-size: 45px;
     text-align: center;
     margin-bottom: 30px;
+    margin-top: 30px;
   }
   header h4 {
     font-family: 'Pacifico';
     text-align: center;
     padding: 15px;
+    font-size: 20px;
   }
   #no{
     position: absolute;

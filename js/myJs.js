@@ -16,7 +16,7 @@ function firstQuestion(){
     Swal.fire({
         title: 'Helu cậu nha!',
         text: 'Tớ có điều này muốn hỏi cậu nhớ phải trả lời thật lòng nhaaa <3 <3',
-        imageUrl: '../img/cuteCat.jpg',
+        imageUrl: '/img/cuteCat.jpg',
         imageWidth: 300,
         imageHeight: 300,
         background: '#fff url("../img/iput-bg.jpg")',
@@ -93,7 +93,7 @@ function textGenerate() {
 
 // show popup
 $('#yes').click(function() {
-    var audio = new Audio('../sound/tick.mp3');
+    let audio = new Audio('../sound/tick.mp3');
     audio.play();
     Swal.fire({
         title: 'Nói cho tớ lí do cậu thích tớ đi :vvvv',
